@@ -7,6 +7,20 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/bin/charger:$(TARGET_COPY_OUT_SYSTEM)/bin/charger \
+    vendor/xiaomi/sweet/proprietary/system/lib/android.hardware.vibrator-V2-cpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.vibrator-V2-cpp.so \
+    vendor/xiaomi/sweet/proprietary/system/lib/android.hardware.vibrator@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.vibrator@1.0.so \
+    vendor/xiaomi/sweet/proprietary/system/lib/android.hardware.vibrator@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.vibrator@1.1.so \
+    vendor/xiaomi/sweet/proprietary/system/lib/android.hardware.vibrator@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.vibrator@1.2.so \
+    vendor/xiaomi/sweet/proprietary/system/lib/android.hardware.vibrator@1.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.vibrator@1.3.so \
+    vendor/xiaomi/sweet/proprietary/system/lib/libvibrator.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvibrator.so \
+    vendor/xiaomi/sweet/proprietary/system/lib/libvibratorservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvibratorservice.so \
+    vendor/xiaomi/sweet/proprietary/system/lib64/android.hardware.vibrator-V2-cpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.vibrator-V2-cpp.so \
+    vendor/xiaomi/sweet/proprietary/system/lib64/android.hardware.vibrator@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.vibrator@1.0.so \
+    vendor/xiaomi/sweet/proprietary/system/lib64/android.hardware.vibrator@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.vibrator@1.1.so \
+    vendor/xiaomi/sweet/proprietary/system/lib64/android.hardware.vibrator@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.vibrator@1.2.so \
+    vendor/xiaomi/sweet/proprietary/system/lib64/android.hardware.vibrator@1.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.vibrator@1.3.so \
+    vendor/xiaomi/sweet/proprietary/system/lib64/libvibrator.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvibrator.so \
+    vendor/xiaomi/sweet/proprietary/system/lib64/libvibratorservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvibratorservice.so \
     vendor/xiaomi/sweet/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/sweet/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
     vendor/xiaomi/sweet/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
